@@ -1,0 +1,126 @@
+body {
+    font-family: "Lato";
+    color: #4a4a4a;
+
+}
+
+.background {
+    background: rgb(232, 232, 232);
+    background-repeat: no-repeat;
+    background-image: url('https://plus.unsplash.com/premium_photo-1674808697498-fd76703d96ed?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: 100% 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    /*display: flex;*/
+
+}
+
+.logo {
+    height: 38px;
+    max-width: 155px;
+    max-height: 49px;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.categories {
+    background-color: white;
+    width: 950px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 1px #7a7a7a;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+.categories span {
+    font-size: 14px;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fa-solid {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.tickets {
+    background-color: #fff;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px 1px #7a7a7a;
+    padding: 40px;
+}
+.ticket-type{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 1000px;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px;
+}
+.ticket-type span{
+    padding: 5px;
+}
+.ticket-type span i {
+    font-size: 14px;
+
+}
+.selected-ticket-type{
+    background-color: #eaf5ff;
+    border-radius: 30px;
+}
+.flight-search{
+    border: 1px solid rgb(202, 202, 202);
+    display: flex;
+    border-radius: 10px;
+
+}
+.flight {
+    margin: 15px;
+    color: rgb(33, 33, 33);
+    width: 300px;
+    border-right: 1px solid rgb(140, 140, 140);
+}
+.flight h1 {
+    margin: 0;
+}
+.departure{
+    margin: 15px;
+    color: rgb(33, 33, 33);
+    width: 200px;
+    border-right: 1px solid rgb(140, 140, 140);
+}
+.departure h1 {
+    margin: 0;
+}
+
+.flight:last-child {
+    border-right: none;}
+
+.departure-pic {
+    font-size: 10px;
+}
+.return{
+    margin: 15px;
+    color: rgb(33, 33, 33);
+    width: 100px;  
+}
+.big{
+    font-size: larger;
+
+}
